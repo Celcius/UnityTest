@@ -61,13 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\GameMechanics\GameplayConstants.cs" />
-    <Compile Include="Assets\GameMechanics\KillZone.cs" />
-    <Compile Include="Assets\GameMechanics\PlatformManager.cs" />
-    <Compile Include="Assets\GameMechanics\PlayerCharacter.cs" />
-    <Compile Include="Assets\Platforms\Platform.cs" />
-    <Compile Include="Assets\Platforms\PlatformSection.cs" />
+    <Compile Include="Assets\EnemyManager.cs" />
+    <Compile Include="Assets\Player\MyPlayerController.cs" />
+    <Compile Include="Assets\Player\PlayerInputReader.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
